@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <header class="flex items-center justify-between  p-4 border-b">
+            <h1 class="text-2xl font-bold uppercase">Ôn tập</h1>
+
+            <div class="flex flex-shrink-0 items-center space-x-2">
+                <button id="generate-button"
+                    class="flex-shrink-0 inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap bg-blue-500 border border-blue-500 rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:shadow-none">Tạo
+                    mới</button>
+                <input type="number" id="number-of-questions-input"
+                    class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    min="1" max="100" />
+            </div>
+        </header>
+
+        <div id="quiz-container" class="p-4 pb-24">
+            <div class="flex flex-col items-center text-gray-600 py-12 space-y-4">
+                <svg class="w-24 h-24" xmlns="http://www.w3.org/2000/svg" version="1.1"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512"
+                    height="512" x="0" y="0" viewBox="0 0 64 64" style="enable-background:new 0 0 512 512"
+                    xml:space="preserve" class="">
+                    <g>
+                        <linearGradient id="a">
+                            <stop offset="0" stop-color="#cadcf0"></stop>
+                            <stop offset="1" stop-color="#a4bbdb"></stop>
+                        </linearGradient>
+                        <linearGradient xlink:href="#a" id="d" x1="0" x2="1" y1="0" y2="0"
+                            gradientTransform="matrix(40 0 0 12.921 11.791 27.157)" gradientUnits="userSpaceOnUse">
+                        </linearGradient>
+                        <linearGradient id="e" x1="0" x2="1" y1="0" y2="0"
+                            gradientTransform="matrix(40 0 0 1.863 11.791 29.234)" gradientUnits="userSpaceOnUse">
+                            <stop offset="0" stop-color="#a4bbdb"></stop>
+                            <stop offset="1" stop-color="#8da3be"></stop>
+                        </linearGradient>
+                        <linearGradient xlink:href="#a" id="f" x1="0" x2="1" y1="0" y2="0"
+                            gradientTransform="matrix(40 0 0 12.921 12 27.157)" gradientUnits="userSpaceOnUse">
+                        </linearGradient>
+                        <linearGradient id="b">
+                            <stop offset="0" stop-color="#e9f3fc"></stop>
+                            <stop offset="1" stop-color="#cadcf0"></stop>
+                        </linearGradient>
+                        <linearGradient xlink:href="#b" id="g" x1="0" x2="1" y1="0" y2="0"
+                            gradientTransform="matrix(44.653 0 0 32 9.674 45.617)" gradientUnits="userSpaceOnUse">
+                        </linearGradient>
+                        <linearGradient id="c">
+                            <stop offset="0" stop-color="#559aff"></stop>
+                            <stop offset="1" stop-color="#2e69ef"></stop>
+                        </linearGradient>
+                        <linearGradient xlink:href="#c" id="h" x1="0" x2="1" y1="0" y2="0"
+                            gradientTransform="matrix(12 0 0 6 17.716 54.464)" gradientUnits="userSpaceOnUse">
+                        </linearGradient>
+                        <linearGradient xlink:href="#c" id="i" x1="0" x2="1" y1="0" y2="0"
+                            gradientTransform="rotate(80.56 11.956 23.165) scale(20.163)"
+                            gradientUnits="userSpaceOnUse"></linearGradient>
+                        <linearGradient xlink:href="#b" id="j" x1="0" x2="1" y1="0" y2="0"
+                            gradientTransform="matrix(6.695 0 0 4.448 31.891 4.607)" gradientUnits="userSpaceOnUse">
+                        </linearGradient>
+                        <linearGradient xlink:href="#b" id="k" x1="0" x2="1" y1="0" y2="0"
+                            gradientTransform="matrix(6.695 0 0 -4.448 31.891 10.607)" gradientUnits="userSpaceOnUse">
+                        </linearGradient>
+                        <linearGradient xlink:href="#c" id="l" x1="0" x2="1" y1="0" y2="0"
+                            gradientTransform="matrix(8.695 0 0 2 30.802 7.617)" gradientUnits="userSpaceOnUse">
+                        </linearGradient>
+                        <path fill="url(#d)" d="M51.791 24.617h-37a3 3 0 0 0-3 3v6h40z" data-original="url(#d)"></path>
+                        <path fill="url(#e)" d="M11.791 28.303h40v1.863h-40z" data-original="url(#e)"></path>
+                        <path fill="url(#f)"
+                            d="M51.791 23.696a3 3 0 0 0-3-3H36.153a3 3 0 0 0-2.842 2.04L32 26.617h19.791z"
+                            data-original="url(#f)"></path>
+                        <path fill="url(#g)"
+                            d="M54.279 34.234a4.002 4.002 0 0 0-3.953-4.617H13.674a4 4 0 0 0-3.953 4.617l3.75 24a4.001 4.001 0 0 0 3.953 3.383h29.152a4.001 4.001 0 0 0 3.953-3.383l3.75-24z"
+                            data-original="url(#g)" class=""></path>
+                        <path fill="#e9f3fc"
+                            d="m9.721 34.234.513 3.28c-.181-1.155.216-2.331.976-3.219a4 4 0 0 1 3.039-1.399h35.502c1.169 0 2.279.511 3.039 1.399s1.157 2.064.976 3.219l.513-3.28a4.002 4.002 0 0 0-3.953-4.617H13.674a4 4 0 0 0-3.953 4.617z"
+                            data-original="#e9f3fc"></path>
+                        <path fill="url(#h)"
+                            d="M29.715 53.464a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-2z"
+                            data-original="url(#h)"></path>
+                        <g fill="url(#i)">
+                            <path
+                                d="M23.557 25.826a5.277 5.277 0 0 1-.064-.834 1 1 0 0 0-2-.008 7.1 7.1 0 0 0 .089 1.153 1 1 0 1 0 1.975-.311zM24.607 21.993c.196-.23.416-.446.66-.648a1 1 0 0 0-1.275-1.541 7.373 7.373 0 0 0-.908.892 1 1 0 0 0 1.523 1.297zM28.376 19.902c.404-.091.83-.159 1.277-.204a1 1 0 0 0-.199-1.99c-.53.053-1.036.135-1.516.243a1 1 0 1 0 .438 1.951zM33.495 19.694c.61.016 1.189.011 1.741-.012a1 1 0 0 0-.084-1.998c-.509.021-1.044.025-1.606.011a1 1 0 0 0-.051 1.999zM39.368 19.055c.645-.187 1.227-.41 1.749-.66a1.001 1.001 0 0 0-.866-1.803c-.43.206-.909.388-1.441.543a1 1 0 0 0 .558 1.92zM44.122 15.939a6.17 6.17 0 0 0 .962-2.144 1.001 1.001 0 0 0-1.947-.456c-.117.498-.329.99-.653 1.452a1.001 1.001 0 0 0 1.638 1.148zM44.715 9.783c-.443-1.033-1.137-1.903-1.961-2.471a1 1 0 0 0-1.136 1.646c.535.369.972.944 1.259 1.614a1 1 0 1 0 1.838-.789z"
+                                fill=""></path>
+                        </g>
+                        <path fill="url(#j)" d="M31.891 6.831c1.082-6.127 10.459-5.731 5 0z" data-original="url(#j)">
+                        </path>
+                        <path fill="url(#k)" d="M31.891 8.383c1.082 6.126 10.459 5.731 5 0z" data-original="url(#k)">
+                        </path>
+                        <path fill="url(#l)" d="M31.801 8.617h6.696a1 1 0 0 0 0-2h-6.696a1.001 1.001 0 0 0 0 2z"
+                            data-original="url(#l)"></path>
+                    </g>
+                </svg>
+                <p class="text-center">Nhấn <strong>Tạo mới</strong> để tạo bộ đề, thay đổi số để chỉnh số lượng câu hỏi
+                    mỗi lần tạo mới</p>
+            </div>
+        </div>
+
+        <div class="fixed bottom-0 left-0 w-full border-t p-4 bg-white flex justify-between">
+            <button id="submit-button"
+                class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap bg-emerald-500 border border-emerald-500 rounded-md shadow-sm hover:bg-emerald-600 focus:outline-none focus:shadow-none"
+                disabled>Nộp
+                bài</button>
+
+            <div id="result-container" class="text-center text-emerald-500">
+                <div id="result-text">...</div>
+            </div>
+
+            <button id="reset-button"
+                class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-gray-600 whitespace-no-wrap bg-white border border-gray-200 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:shadow-none"
+                disabled>Làm lại</button>
+        </div>
+    </div>
+
+    <script src="setNumberOfQuestions.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
