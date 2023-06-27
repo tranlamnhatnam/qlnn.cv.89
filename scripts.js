@@ -100,7 +100,7 @@ const quizData = {
         "C. Nguyên tắc bình đẳng, đoàn kết dân tộc",
         "D. Nguyên tắc quản lý xã hội bằng Hiến pháp và pháp luật",
       ],
-      answer: "D",
+      answer: "A",
     },
     {
       question: "Câu 12: Chọn câu đúng. Cơ cấu tổ chức của Quốc hội gồm:",
