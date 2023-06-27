@@ -164,7 +164,7 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 18: Đâu không thuộc mục tiêu của hạt động công vụ:",
+      question: "Câu 18: Đâu không thuộc mục tiêu của hoạt động công vụ:",
       options: [
         "A. Phục vụ Nhà nước",
         "B. Phục vụ nhân dân",
@@ -646,7 +646,7 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 68: Đâu không thuộc mục tiêu của hạt động công vụ:",
+      question: "Câu 68: Đâu không thuộc mục tiêu của hoạt động công vụ:",
       options: [
         "A. Xã hội hóa vì phục vụ nhiều người",
         "B. Duy trì an ninh, an toàn trật tự xã hội",
@@ -877,7 +877,7 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 93: Chọn đáp án đúng. Các nội dung cơ bản của quan lý tài chính trong cơ quan nhà nước",
+      question: "Câu 93: Chọn đáp án đúng. Các nội dung cơ bản của quản lý tài chính trong cơ quan nhà nước",
       options: [
         "A. Lập dự toán trong cơ quan nhà nước",
         "B. Thực hiện dự tóan",
