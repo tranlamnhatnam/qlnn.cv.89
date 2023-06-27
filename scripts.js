@@ -1089,11 +1089,13 @@ function showResult() {
       score++;
       const selectedOption = questionElement.querySelector(`input[value="${selectedAnswer}"]`);
       selectedOption.parentElement.classList.add("text-green-500", "font-bold");
+      selectedOption.classList.add("text-green-500");
     } else {
       const correctOptionIndex = question.options.findIndex((opt) => opt.startsWith(question.answer));
 
       const correctOptionElement = questionElement.querySelector(`[data-option-index="${correctOptionIndex}"]`);
       correctOptionElement.parentElement.classList.add("text-green-500", "font-bold");
+      correctOptionElement.classList.add("text-green-500");
 
       const selectedOption = questionElement.querySelector(`input[value="${selectedAnswer}"]`);
       selectedOption.parentElement.classList.add("text-red-500", "font-bold");
@@ -1131,7 +1133,7 @@ function resetQuiz() {
       "underline",
       "text-orange-500"
     );
-    option.classList.remove("text-red-500", "text-orange-500");
+    option.classList.remove("text-red-500", "text-orange-500", "text-green-500");
     option.classList.add("text-blue-500");
   });
 
