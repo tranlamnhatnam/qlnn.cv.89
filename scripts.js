@@ -158,7 +158,7 @@ const quizData = {
       options: [
         "A. Hoạt động của lực lượng vũ trang trong việc bảo vệ đất nước chống xâm lược;",
         "B. Hoạt động của các cơ quan lập pháp. Đó là những đại biểu dân cử hoạt động theo nhiệm kỳ.",
-        "C. Hoạt động của những đối tác tham gia cùng với nhà nước.  Đó là sự liên kết giữa Nhà nước với các tổ chức khác ngoài nhà nước.",
+        "C. Hoạt động của những đối tác tham gia cùng với nhà nước. Đó là sự liên kết giữa Nhà nước với các tổ chức khác ngoài nhà nước.",
         "D. Cả A, B, C",
       ],
       answer: "D",
