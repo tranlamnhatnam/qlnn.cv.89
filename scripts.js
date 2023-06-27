@@ -16,7 +16,7 @@ const quizData = {
       answer: "A",
     },
     {
-      question: "Câu 3: Đây không phải là giải pháp đấu tranh phòng, chống tham nhũng, tiêu cực:",
+      question: "Câu 3: Đâu không phải là giải pháp đấu tranh phòng, chống tham nhũng, tiêu cực:",
       options: [
         "A. Hoàn thiện thể chế, chính sách",
         "B. Tổng kiểm tra minh bạch tài sản của cán bộ, công chức, viên chức có chức vụ",
@@ -26,7 +26,7 @@ const quizData = {
       answer: "B",
     },
     {
-      question: "Câu 4: Đây không phải là đặc điểm quản lý nhà nước",
+      question: "Câu 4: Đâu không phải là đặc điểm quản lý nhà nước",
       options: [
         "A. Quản lý nhà nước mang tính quyền lực nhà nước, sử dụng các công cụ như pháp luật, chính sách, quy hoạch,... để quản lý xã hội.",
         "B. Mục tiêu của quản lý nhà nước là phục vụ nhân dân, duy trì sự ổn định và phát triển của toàn xã hội.",
@@ -46,7 +46,7 @@ const quizData = {
       answer: "C",
     },
     {
-      question: "Câu 6: Đây không phải là nguyên tắc trong tổ chức và hoạt động của hành chính nhà nước:",
+      question: "Câu 6: Đâu không phải là nguyên tắc trong tổ chức và hoạt động của hành chính nhà nước:",
       options: [
         "A. Nguyên tắc kết hợp quản lý theo ngành với quản lý theo lãnh thổ",
         "B. Nguyên tắc phân định giữa quản lý nhà nước về kinh tế với quản trị kinh doanh của doanh nghiệp",
@@ -93,7 +93,7 @@ const quizData = {
     },
     {
       question:
-        "Câu 11: Chọn câu đúng. Đây không phải là nguyên tắc tổ chức và hoạt động của Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam:",
+        "Câu 11: Chọn câu đúng. Đâu không phải là nguyên tắc tổ chức và hoạt động của Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam:",
       options: [
         "A. Nguyên tắc pháp chế xã hội chủ nghĩa",
         "B. Nguyên tắc tập trung dân chủ",
@@ -144,7 +144,7 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 16: Đây là hình thức không mang tính pháp lý trong hoạt động hành chính nhà nước:",
+      question: "Câu 16: Đâu là hình thức không mang tính pháp lý trong hoạt động hành chính nhà nước:",
       options: [
         "A. Ban hành văn bản hành chính thông thường",
         "B. Hoạt động tổ chức hội nghị",
@@ -164,7 +164,7 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 18: Đây không thuộc mục tiêu của hạt động công vụ:",
+      question: "Câu 18: Đâu không thuộc mục tiêu của hạt động công vụ:",
       options: [
         "A. Phục vụ Nhà nước",
         "B. Phục vụ nhân dân",
@@ -314,7 +314,7 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 33: Đây không thuộc chế độ bảo hiểm xã hội bắt:",
+      question: "Câu 33: Đâu không thuộc chế độ bảo hiểm xã hội bắt:",
       options: [
         "A. Chế độ trợ cấp ốm đau;",
         "B. Chế độ trợ cấp thai sản;",
@@ -417,7 +417,7 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 45: Đây không phải là thách thức khách quan trong phòng chống tham nhũng, tiêu cực:",
+      question: "Câu 45: Đâu không phải là thách thức khách quan trong phòng chống tham nhũng, tiêu cực:",
       options: [
         "A. Chênh lệch giàu nghèo",
         "B. Thách thức từ nền kinh tế thị trường",
@@ -488,7 +488,7 @@ const quizData = {
     },
     {
       question:
-        "Câu 52: Đây là một trong những nguyên tắc hoạt động của hệ thống chính trị nước Cộng hòa xã hội chủ nghĩa Việt Nam:",
+        "Câu 52: Đâu là một trong những nguyên tắc hoạt động của hệ thống chính trị nước Cộng hòa xã hội chủ nghĩa Việt Nam:",
       options: [
         "A. Nguyên tắc tập trung dân chủ.",
         "B. Nguyên tắc pháp chế",
@@ -569,7 +569,7 @@ const quizData = {
       answer: "B",
     },
     {
-      question: "Câu 60: Đây không phải là đặc điểm quản lý nhà nước:",
+      question: "Câu 60: Đâu không phải là đặc điểm quản lý nhà nước:",
       options: [
         "A. Chủ thể quản lý nhà nước là cơ quan, tổ chức, cá nhân được trao quyền theo quy định của pháp luật;",
         "B. Đối tượng quản lý nhà nước là cá nhân, tổ chức sinh sống và hoạt động trong phạm vi lãnh thổ quốc gia, công dân, tổ chức làm việc bên ngoài lãnh thổ quốc gia.",
@@ -579,7 +579,7 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 61: Đây không phải là yếu tố cấu thành nền hành chính nhà nước:",
+      question: "Câu 61: Đâu không phải là yếu tố cấu thành nền hành chính nhà nước:",
       options: [
         "A. Thể chế hành chính nhà nước bao gồm Hiến pháp, luật, pháp lệnh và các văn bản quy phạm pháp luật để thực thi quyền hành pháp.",
         "B. Cơ cấu tổ chức và cơ chế vận hành của bộ máy hành chính nhà nước các cấp.",
@@ -625,7 +625,7 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 66: Đây không thuộc hình thức sử dụng phương pháp giáo dục:",
+      question: "Câu 66: Đâu không thuộc hình thức sử dụng phương pháp giáo dục:",
       options: [
         "A. Thông qua các phương tiện thông tin đại chúng;",
         "B. Thông qua các cuộc tìm hiểu chính sách, pháp luật của Đảng và Nhà nước, nội quy, quy chế của các tổ chức hành chính nhà nước;",
@@ -646,7 +646,7 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 68: Đây không thuộc mục tiêu của hạt động công vụ:",
+      question: "Câu 68: Đâu không thuộc mục tiêu của hạt động công vụ:",
       options: [
         "A. Xã hội hóa vì phục vụ nhiều người",
         "B. Duy trì an ninh, an toàn trật tự xã hội",
@@ -929,7 +929,7 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 98: Đây không phải là thách thức khách quan trong phòng chống tham nhũng, tiêu cực:",
+      question: "Câu 98: Đâu không phải là thách thức khách quan trong phòng chống tham nhũng, tiêu cực:",
       options: [
         "A. Thách thức từ nền kinh tế thị trường",
         "B. Tiền lương của khu vực công còn thấp",
@@ -939,7 +939,7 @@ const quizData = {
       answer: "B",
     },
     {
-      question: "Câu 99: Đây không phải là thách thức chủ quan trong phòng chống tham nhũng, tiêu cực:",
+      question: "Câu 99: Đâu không phải là thách thức chủ quan trong phòng chống tham nhũng, tiêu cực:",
       options: [
         "A. Thách thức từ chế độ chính sách, tiền lương còn thấp",
         "B. Thách thức đến từ sự yếu kém trong công tác quản lý nhà nước trên một số lĩnh vực đời sống xã hội cũng như những bất cập trong hệ thống văn bản pháp luật",
