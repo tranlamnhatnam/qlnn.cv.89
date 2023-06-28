@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Ôn tập</title>
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <header class="flex items-center p-4 border-b">
+            <input type="text" id="filter-input"
+                class="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                placeholder="Nhập nội dung câu hỏi" />
+        </header>
+
+        <div id="quiz-container" class="p-4">
+
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="filters.js"></script>
+</body>
+
+</html>
