@@ -8,10 +8,10 @@ function populateTable(data) {
     const durationCell = document.createElement("td");
 
     contentCell.textContent = item.content;
-    contentCell.classList.add("p-4", "text-sm", "text-gray-500");
+    contentCell.classList.add("p-4", "text-gray-500");
 
     durationCell.textContent = item.duration;
-    durationCell.classList.add("p-4", "text-sm", "text-gray-500", "text-center");
+    durationCell.classList.add("p-4", "text-gray-500", "text-center");
 
     row.classList.add("divide-x");
     row.appendChild(contentCell);
@@ -33,8 +33,8 @@ function populateTable(data) {
 
         subDividerCell.classList.add("bg-gray-50", "w-2");
 
-        subContentCell.classList.add("p-4", "text-sm", "text-gray-500");
-        subDurationCell.classList.add("p-4", "text-sm", "text-gray-500", "text-center");
+        subContentCell.classList.add("p-4", "text-gray-500");
+        subDurationCell.classList.add("p-4", "text-gray-500", "text-center");
 
         subContentCell.textContent = `${subItem.content}`;
         subDurationCell.textContent = subItem.duration;
