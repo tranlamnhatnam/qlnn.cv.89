@@ -1,5 +1,23 @@
 const tableBody = document.querySelector("#dataTable tbody");
 
+function getGroupLabel(key) {
+  function findGroupLabel(groupList, targetKey) {
+    for (const group of groupList) {
+      if (group.index === targetKey) {
+        return group.content;
+      } else if (group.subitems && group.subitems.length > 0) {
+        const subGroupLabel = findGroupLabel(group.subitems, targetKey);
+        if (subGroupLabel) {
+          return `${group.content} > ${subGroupLabel}`;
+        }
+      }
+    }
+    return "";
+  }
+
+  return findGroupLabel(groups, key);
+}
+
 function populateTable(data) {
   tableBody.innerHTML = "";
   data.forEach((item) => {
@@ -7,11 +25,20 @@ function populateTable(data) {
     const contentCell = document.createElement("td");
     const durationCell = document.createElement("td");
 
+    const breakline = document.createElement("br");
+
+    const breadcrumb = document.createElement("span");
+    breadcrumb.classList.add("text-sm", "text-gray-400");
+    breadcrumb.innerHTML = `&mdash; ${getGroupLabel(item.group)}`;
+
     contentCell.textContent = item.content;
-    contentCell.classList.add("p-4", "text-gray-500");
+    contentCell.classList.add("p-4");
+
+    contentCell.appendChild(breakline);
+    contentCell.appendChild(breadcrumb);
 
     durationCell.textContent = item.duration;
-    durationCell.classList.add("p-4", "text-gray-500", "text-center");
+    durationCell.classList.add("p-4", "text-center");
 
     row.classList.add("divide-x");
     row.appendChild(contentCell);
@@ -33,10 +60,10 @@ function populateTable(data) {
 
         subDividerCell.classList.add("bg-gray-50", "w-2");
 
-        subContentCell.classList.add("p-4", "text-gray-500");
-        subDurationCell.classList.add("p-4", "text-gray-500", "text-center");
+        subContentCell.classList.add("p-4");
+        subDurationCell.classList.add("w-40", "p-4", "text-center");
 
-        subContentCell.textContent = `${subItem.content}`;
+        subContentCell.textContent = `■ ${subItem.content}`;
         subDurationCell.textContent = subItem.duration;
 
         subRow.appendChild(subDividerCell);

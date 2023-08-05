@@ -1,109 +1,109 @@
-// const groups = [
-//   {
-//     index: "1",
-//     content: "Tài liệu tổng hợp",
-//   },
-//   {
-//     index: "2",
-//     content: "Tài liệu quy hoạch, kế hoạch, thống kê",
-//     subitems: [
-//       {
-//         index: "2.1",
-//         content: "Tài liệu quy hoạch",
-//       },
-//       {
-//         index: "2.2",
-//         content: "Tài liệu kế hoạch",
-//       },
-//       {
-//         index: "2.3",
-//         content: "Tài liệu thống kê",
-//       },
-//     ],
-//   },
-//   {
-//     index: "3",
-//     content: "Tài liệu tổ chức, nhân sự",
-//   },
-//   {
-//     index: "4",
-//     content: "Tài liệu lao động, tiền lương",
-//     subitems: [
-//       {
-//         index: "4.1",
-//         content: "Tài liệu lao động",
-//       },
-//       {
-//         index: "4.2",
-//         content: "Tài liệu tiền lương",
-//       },
-//     ],
-//   },
-//   {
-//     index: "5",
-//     content: "Tài liệu tài chính, kế toán",
-//   },
-//   {
-//     index: "6",
-//     content: "Tài liệu xây dựng cơ bản",
-//   },
-//   {
-//     index: "7",
-//     content: "Tài liệu khoa học công nghệ",
-//   },
-//   {
-//     index: "8",
-//     content: "Tài liệu hợp tác quốc tế",
-//   },
-//   {
-//     index: "9",
-//     content: "Tài liệu thanh tra và giải quyết khiếu nại, tố cáo",
-//   },
-//   {
-//     index: "10",
-//     content: "Tài liệu thi đua, khen thưởng",
-//   },
-//   {
-//     index: "11",
-//     content: "Tài liệu pháp chế",
-//   },
-//   {
-//     index: "12",
-//     content: "Tài liệu về hành chính, quản trị công sở",
-//     subitems: [
-//       {
-//         index: "12.1",
-//         content: "Tài liệu về hành chính, văn thư, lưu trữ",
-//       },
-//       {
-//         index: "12.2",
-//         content: "Tài liệu quản trị công sở",
-//       },
-//     ],
-//   },
-//   {
-//     index: "13",
-//     content: "Tài liệu các lĩnh vực chuyên môn nghiệp vụ",
-//   },
-//   {
-//     index: "14",
-//     content: "Tài liệu của tổ chức Đảng và các Đoàn thể cơ quan",
-//     subitems: [
-//       {
-//         index: "14.1",
-//         content: "Tài liệu của tổ chức Đảng",
-//       },
-//       {
-//         index: "14.2",
-//         content: "Tài liệu tổ chức Công đoàn",
-//       },
-//       {
-//         index: "14.3",
-//         content: "Tài liệu tổ chức Đoàn Thanh niên",
-//       },
-//     ],
-//   },
-// ];
+const groups = [
+  {
+    index: "1",
+    content: "Tài liệu tổng hợp",
+  },
+  {
+    index: "2",
+    content: "Tài liệu quy hoạch, kế hoạch, thống kê",
+    subitems: [
+      {
+        index: "2.1",
+        content: "Tài liệu quy hoạch",
+      },
+      {
+        index: "2.2",
+        content: "Tài liệu kế hoạch",
+      },
+      {
+        index: "2.3",
+        content: "Tài liệu thống kê",
+      },
+    ],
+  },
+  {
+    index: "3",
+    content: "Tài liệu tổ chức, nhân sự",
+  },
+  {
+    index: "4",
+    content: "Tài liệu lao động, tiền lương",
+    subitems: [
+      {
+        index: "4.1",
+        content: "Tài liệu lao động",
+      },
+      {
+        index: "4.2",
+        content: "Tài liệu tiền lương",
+      },
+    ],
+  },
+  {
+    index: "5",
+    content: "Tài liệu tài chính, kế toán",
+  },
+  {
+    index: "6",
+    content: "Tài liệu xây dựng cơ bản",
+  },
+  {
+    index: "7",
+    content: "Tài liệu khoa học công nghệ",
+  },
+  {
+    index: "8",
+    content: "Tài liệu hợp tác quốc tế",
+  },
+  {
+    index: "9",
+    content: "Tài liệu thanh tra và giải quyết khiếu nại, tố cáo",
+  },
+  {
+    index: "10",
+    content: "Tài liệu thi đua, khen thưởng",
+  },
+  {
+    index: "11",
+    content: "Tài liệu pháp chế",
+  },
+  {
+    index: "12",
+    content: "Tài liệu về hành chính, quản trị công sở",
+    subitems: [
+      {
+        index: "12.1",
+        content: "Tài liệu về hành chính, văn thư, lưu trữ",
+      },
+      {
+        index: "12.2",
+        content: "Tài liệu quản trị công sở",
+      },
+    ],
+  },
+  {
+    index: "13",
+    content: "Tài liệu các lĩnh vực chuyên môn nghiệp vụ",
+  },
+  {
+    index: "14",
+    content: "Tài liệu của tổ chức Đảng và các Đoàn thể cơ quan",
+    subitems: [
+      {
+        index: "14.1",
+        content: "Tài liệu của tổ chức Đảng",
+      },
+      {
+        index: "14.2",
+        content: "Tài liệu tổ chức Công đoàn",
+      },
+      {
+        index: "14.3",
+        content: "Tài liệu tổ chức Đoàn Thanh niên",
+      },
+    ],
+  },
+];
 
 const items = [
   {
