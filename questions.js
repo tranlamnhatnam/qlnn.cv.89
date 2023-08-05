@@ -3,7 +3,7 @@ const quizData = {
     {
       question: "Câu 1. Chọn câu đúng. Nội dung này không phải là thông tin trong hoạt động hành chính nhà nước:",
       options: ["A. Thông tin sơ cấp", "B. Thông tin thứ cấp", "C. Thông tin quản lý", "D. Thông tin trên mạng xã hội"],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 2. Chọn câu sai. Những căn cứ cơ bản để phân loại thông tin trong quản lý",
@@ -13,7 +13,7 @@ const quizData = {
         "C. Căn cứ vào mức độ phản ánh của thông tin",
         "D. Căn cứ vào tính pháp lý của thông tin",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question: "Câu 3. Chọn câu đúng. Căn cứ để phân loại thông tin trong quản lý:",
@@ -23,7 +23,7 @@ const quizData = {
         "C. Căn cứ vào hình thức truyền đạt thông tin",
         "D. Cả A,B,C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 4. Đây không phải là loại thông tin trong quản lý:",
@@ -33,7 +33,7 @@ const quizData = {
         "C. Thông tin về văn hóa, giáo dục, y tế",
         "D. Thông tin trong nước, thông tin ngoài nước",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 5. Nội dung này không thuộc vai trò của thông tin trong hoạt động quản lý hành chính nhà nước: ",
@@ -43,7 +43,7 @@ const quizData = {
         "C. Giúp cho các nhà lãnh đạo, quản lý tổ chức quản lý, điều hành mọi hoạt của tổ chức có hiệu quả hơn",
         "D. Thông tin trong hoạt động hành chính nhà nước là căn cứ để tổ chức, kiểm tra, đánh giá việc thực hiện các quyết định hành chính nhà nước.",
       ],
-      answer: "",
+      answer: "A",
     },
     {
       question: "Câu 6. Nội dung này không phải là đặc điểm thu thập thông tin trong hoạt động hành chính nhà nước:  ",
@@ -53,7 +53,7 @@ const quizData = {
         "C. Thu thập thông tin phải bảo đảm tính chính xác",
         "D. Thu thập thông tin là một quá trình liên tục, nhằm bổ sung, hoàn chỉnh thông tin cần thiết;",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 7. Nội dung này không thuộc đặc điểm của xử lý thông tin trong hoạt động hành chính nhà nước: ",
@@ -63,7 +63,7 @@ const quizData = {
         "C. Chất lựợng thông tin mà người xử lý cung cấp tới đối tượng tiếp nhận có thể bị tác động bởi nhiều yếu tố như trình độ ứng dụng khoa học công nghệ…",
         "D. Kết quả xử lý thông tin góp phần nâng cao hiệu quả lãnh đạo, quản lý",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 8. Vai trò của thu thập, xử lý thông tin trong hoạt động hành chính nhà nước: ",
@@ -73,7 +73,7 @@ const quizData = {
         "C. Đối với công tác lãnh đạo, quản lý",
         "D. Cả A,B,C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -84,7 +84,7 @@ const quizData = {
         "C. Cung cấp các dữ liệu cần thiết về nhân lực, vật lực và tài lực",
         "D. Xây dựng các phương án để bố trí, sắp xếp, sử dụng nhân lực và phân bổ các nguồn lực khác, phân công nhiệm vụ",
       ],
-      answer: "",
+      answer: "A",
     },
     {
       question:
@@ -95,7 +95,7 @@ const quizData = {
         "C. Giúp cho việc thiết kế tổ chức; xây dựng mô hình, thiết lập cơ cấu tổ chức phù hợp",
         "D. Cung cấp các dữ liệu cần thiết về nhân lực, vật lực và tài lực",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question:
@@ -107,7 +107,7 @@ const quizData = {
         "D. Đối với công tác kiểm tra, giám sát",
         "E. Điều động, luân chuyển cán bộ, công chức",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -118,7 +118,7 @@ const quizData = {
         "C. Nhận thức các vấn đề liên quan tới động cơ thúc đẩy nhân viên;",
         "D. A,B đúng",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 13. Đây không phải là yêu cầu đối với thông tin thu thập:",
@@ -128,7 +128,7 @@ const quizData = {
         "C. Thông tin phải chính xác",
         "D. Thông tin phải đầy đủ",
       ],
-      answer: "",
+      answer: "A",
     },
     {
       question: "Câu 14. Nội dung này không thuộc yêu cầu đối với thông tin thu thập:",
@@ -138,7 +138,7 @@ const quizData = {
         "C. Thông tin phải đơn giản dễ hiểu",
         "D. Thông tin phải công khai, minh bạch",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 15.  Đây không thuộc nguồn thông tin thứ cấp:",
@@ -148,7 +148,7 @@ const quizData = {
         "C. Các phương tiện thông tin đại chúng khác.",
         "D. Thực tiễn lãnh đạo, quản lý",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 16.Nội dung này không phải là yêu cầu thông tin thu thập:",
@@ -158,7 +158,7 @@ const quizData = {
         "C. Bảo đảm tính khách quan",
         "D. Bảo đảm tính pháp lý",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question: "Câu 17. Kỹ thuật thu thập thông tin thứ cấp không có nội dung này:",
@@ -168,7 +168,7 @@ const quizData = {
         "C. Thu thập thông tin chuyên sâu",
         "D. Thu thập thông tin tổng hợp",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 18. Nội dung này không phải là nguyên tắc xử lý thông tin trong quản lý:",
@@ -178,7 +178,7 @@ const quizData = {
         "C. Quá trình xử lý thông tin phải nắm được hạt nhân của thông tin",
         "D. Nguyên tắc hiệu quả, kịp thời",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -189,7 +189,7 @@ const quizData = {
         "C. Thực hiện khai thác xử dụng ngay nếu đó là thông tin mới",
         "D. Kiểm tra thông tin cơ quan chủ quản",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question:
@@ -200,7 +200,7 @@ const quizData = {
         "C. Việc xử lý thông tin thu thập được cũng cần phải quản lý để thống nhất, không trùng lặp, không tản mát và đúng kế hoạch, mục tiêu đề ra.",
         "D. Cả A,B,C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -211,7 +211,7 @@ const quizData = {
         "C. Sự kiện, sự việc đó phải xuất hiện các vấn đề “đặc biệt”, phức tạp đòi hỏi cán bộ, công chức phải có kỹ năng phân tích và tìm ra phương án, biện pháp giải quyết vấn đề đó.",
         "D. Sự kiện đó đã từng xảy ra trong thực tiễn hay không",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -222,7 +222,7 @@ const quizData = {
         "C. Thông qua việc phân tích, giải quyết tình huống giúp cho các cơ quan, tổ chức, cá nhân có thẩm quyền xử lý vụ việc được nhanh chóng, kịp thời, chính xác.",
         "D. Tăng cường và phát triển được kỹ năng tham mưu của đội ngũ công chức trong thực thi nhiệm vụ thông qua việc phân tích, giải quyết tình huống trong hành chính nhà nước.",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question:
@@ -233,7 +233,7 @@ const quizData = {
         "C. Thông qua việc phân tích, giải quyết tình huống giúp cho các cơ quan, tổ chức, cá nhân có thẩm quyền xử lý vụ việc được nhanh chóng, kịp thời, chính xác.",
         "D. B sai",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -244,7 +244,7 @@ const quizData = {
         "C. Nguyên tắc khách quan, trung thực",
         "D. Nguyên tắc chính xác, nhanh chóng, kịp thời",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question:
@@ -255,7 +255,7 @@ const quizData = {
         "C. Phân tích tính chất tác động, ảnh hưởng của các tình huống tới sự biến đổi tiêu cực tới điều kiện sinh hoạt có thể từ những nguyên nhân tự nhiên khách quan hoặc xã hội, những hậu quả và khả năng khắc phục. Từ đó, có những phản ứng nhanh chóng, chính xác, phù hợp; nhận diện bản chất của chúng và phân loại đúng tình huống; xử lý tình huống tại chỗ; kịp thời ngăn ngừa nguy cơ lan rộng của tình huống.",
         "D. Cả A,B,C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 26. Chọn câu sai. Phân tích mức độ quan trọng, cấp thiết của tình huống cần:",
@@ -265,7 +265,7 @@ const quizData = {
         "C. Xem xét thấu đáo chức năng, thẩm quyền của cơ quan, cán bộ, công chức để thực hiện đúng phạm vi thẩm quyền, khắc phục hậu quả của tình huống.",
         "D. Phải lập được đầy đủ các phương án khả thi để làm cơ sở cho việc chọn đúng phương án khắc phục hậu quả tình huống.",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question: "Câu 27. Chọn câu sai. Khi phân tích tình huống, cần tuân thủ các như sau:",
@@ -275,7 +275,7 @@ const quizData = {
         "C. Lập luận giải quyết tình huống",
         "D. Lựa chọn phương án giải quyết",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 28. Giải quyết tình huống không có yêu cầu này:",
@@ -285,7 +285,7 @@ const quizData = {
         "C. Phù hợp với thực tiễn địa phương",
         "D. Nắm vững và thực hiện tốt quy trình giải quyết tình huống",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 29. Chọn câu đúng nhất. Các yêu cầu trong giải quyết tình huống hành chính nhà nước:",
@@ -295,7 +295,7 @@ const quizData = {
         "C. Đảm bảo các nguyên tắc cơ bản trong giải quyết tình huống",
         "D. Cả A,B,C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -306,7 +306,7 @@ const quizData = {
         "C. Tình huống thuộc nội dung quản lý nào?",
         "D. Cả A,B,C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -317,7 +317,7 @@ const quizData = {
         "C. Mức độ phức tạp của tình huống",
         "D. Ai liên quan đến tình huống?",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question:
@@ -328,7 +328,7 @@ const quizData = {
         "C. Tình huống thuộc thẩm quyền và trách nhiệm giải quyết của ai?",
         "D. Ai liên quan đến tình huống?",
       ],
-      answer: "",
+      answer: "A",
     },
     {
       question:
@@ -339,7 +339,7 @@ const quizData = {
         "C. Quá trình tổ chức thực hiện.",
         "D. Cả A,B,C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -350,17 +350,17 @@ const quizData = {
         "C. Dễ xử lý.",
         "D. Kỹ năng giải quyết tình huống.",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 35. Đặc điểm của văn bản quản lý nhà nước được xác định dựa trên các tiêu chí cơ bản:",
       options: [
         "A. Về thẩm quyền ban hành văn bản.",
-        "B. Về nội dung văn bản  nội dung văn bản quản lý nhà.",
+        "B. Về nội dung văn bản.",
         "C. Về trình tự và thủ tục xây dựng và ban hành.",
         "D. Cả A,B,C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 36. Chọn câu sai. Vai trò của văn bản quản lý nhà nước:",
@@ -370,7 +370,7 @@ const quizData = {
         "C. Văn bản là phương tiện kiểm tra, theo dõi hoạt động của bộ máy lãnh đạo, quản lý.",
         "D. A,C sai",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 37. Đây không phải là vai trò của văn bản quản lý nhà nước:",
@@ -380,7 +380,7 @@ const quizData = {
         "C. Văn bản là phương tiện truyền đạt các quyết định quản lý nhà nước.",
         "D. Văn bản là phương tiện kiểm tra, theo dõi hoạt động của bộ máy lãnh đạo, quản lý.",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question:
@@ -391,12 +391,12 @@ const quizData = {
         "C. Phương thức hoạt động, quan hệ công tác giữa các cơ quan, các đơn vị với nhau.",
         "D. Cả A,B,C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 39. Chọn câu đúng nhất. Hệ thống văn bản quản lý nhà nước bao gồm:",
       options: ["A. Văn bản quy phạm pháp luật.", "B. Văn bản hành chính.", "C. Văn bản chuyên ngành.", "D. Cả A,B,C"],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 40. Văn bản này không thuộc văn bản quy phạm pháp luật bao gồm:",
@@ -406,7 +406,7 @@ const quizData = {
         "C. Pháp lệnh, nghị quyết của Ủy ban thường vụ Quốc hội;",
         "D. Chỉ thị của Thủ tướng Chính phủ",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 41. Những văn bản này thuộc hệ thống văn bản quy phạm pháp luật:",
@@ -416,7 +416,7 @@ const quizData = {
         "C. Thông tư của Bộ Trưởng, Thủ Trưởng cơ quan ngang bộ;",
         "D. Cả A,B,C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 42. Văn bản này không thuộc văn bản quy phạm pháp luật bao gồm:",
@@ -426,7 +426,7 @@ const quizData = {
         "C. Quyết định của Hội đồng nhân dân các cấp",
         "D. Văn bản quy phạm pháp luật của chính quyền địa phương ở đơn vị hành chính - kinh tế đặc biệt;",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 43. Văn bản này không thuộc văn bản quy phạm pháp luật bao gồm:",
@@ -436,23 +436,23 @@ const quizData = {
         "C. Quyết định của Ủy ban nhân dân các cấp",
         "D. A, C đúng",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question:
         "Câu 44. Chọn câu đúng nhất. Điều 7 Nghị định số 30/2020/NĐ-CP, quy định có các loại văn bản hành chính:",
       options: ["A. Nghị quyết (cá biệt),", "B. Quyết định (cá biệt),", "C. Chỉ thị", "D. Cả A, B, C"],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 45. Chọn câu sai. Điều 7 Nghị định số 30/2020/NĐ-CP, quy định có các loại văn bản hành chính:",
       options: ["A. Giấy đi đường", "B. Chương trình, kế hoạch", "C. Phương án, đề án, dự án", "D. Báo cáo"],
-      answer: "",
+      answer: "A",
     },
     {
       question: "Câu 46. Chọn câu sai. Điều 7 Nghị định số 30/2020/NĐ-CP, quy định có các loại văn bản hành chính:",
       options: ["A. Biên bản", "B. Đơn xin nghỉ phép", "C. Tờ trình", "D. Hợp đồng"],
-      answer: "",
+      answer: "B",
     },
     {
       question:
@@ -463,17 +463,17 @@ const quizData = {
         "C. Giấy uỷ quyền, giấy mời",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 48. Chọn câu sai. Điều 7 Nghị định số 30/2020/NĐ-CP, quy định có các loại văn bản hành chính:",
       options: ["A. Giấy giới thiệu,", "B. Quyết định", "C. Giấy nghỉ phép", "D. Phiếu gửi, phiếu chuyển"],
-      answer: "",
+      answer: "B",
     },
     {
       question: "Câu 49. Các yêu cầu chung về nội dung văn bản:",
       options: ["A. Tính mục đích", "B. Tính công quyền", "C. Tính khoa học", "D. Cả A, B, C"],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 50. Chọn câu sai. Tính công quyền trong văn bản được thể hiện ở một số yếu tố sau:",
@@ -483,7 +483,7 @@ const quizData = {
         "C. Nội dung văn bản phù hợp với quy định của pháp luật hiện hành và phù hợp với nội dung văn bản của các cơ quan nhà nước cấp trên;",
         "D. Nội dung văn bản phù hợp với thực tiễn",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 51. Chọn câu sai. Có thể xác định tính đại chúng trên những phương diện biểu hiện sau đây:",
@@ -493,12 +493,12 @@ const quizData = {
         "C. Các quy định cụ thể trong văn bản phù hợp với nội dung Hiến pháp về quyền lợi và nghĩa vụ của công dân, đảm bảo quyền và lợi ích chính đáng của nhân dân;",
         "D. Nội dung đưa ra có cơ sở khoa học, phù hợp với các quy phạm xã hội và chuẩn mực đạo đức, văn hóa của cộng đồng;",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question: "Câu 52. Theo quy định hành số lượng thể thức văn bản bao gồm các thành phần chính sau:",
       options: ["A. 7", "B. 8", "C. 9", "D. 10"],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 53. Thể thức văn bản này không thuộc bao gồm các thành phần chính của văn bản:",
@@ -508,7 +508,7 @@ const quizData = {
         "C. Phụ lục.",
         "D. Số, ký hiệu của văn bản.",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 54. Thể thức văn bản này không thuộc bao gồm các thành phần chính của văn bản:",
@@ -518,7 +518,7 @@ const quizData = {
         "C. Tên loại và trích yếu nội dung văn bản.",
         "D. Nội dung văn bản.",
       ],
-      answer: "",
+      answer: "A",
     },
     {
       question: "Câu 55. Thể thức văn bản này không thuộc bao gồm các thành phần chính của văn bản:",
@@ -528,12 +528,12 @@ const quizData = {
         "C. Ký hiệu người soạn thảo văn bản và số lượng bản phát hành.",
         "D. Nơi nhận.",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 56. Quy trình xây dựng văn bản quản lý nhà nước có các bước sau:",
       options: ["A. 6", "B. 7", "C. 8", "D. 9"],
-      answer: "",
+      answer: "A",
     },
     {
       question: "Câu 57. Đây không phải là một trong các bước trong quy trình xây dựng văn bản:",
@@ -543,7 +543,7 @@ const quizData = {
         "C. Soạn thảo văn bản",
         "D. Lấy ý kiến góp ý đối với dự thảo văn bản",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question: "Câu 58. Đây không phải là một trong các bước trong quy trình xây dựng văn bản:",
@@ -553,7 +553,7 @@ const quizData = {
         "C. Trình ký văn bản",
         "D. Phát hành và lưu văn bản.",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 59. Thông thường quyết định hành chính cá biệt được sử dụng trong những trường hợp sau đây:",
@@ -563,17 +563,17 @@ const quizData = {
         "C. Quyết định về công tác tổ chức bộ máy như: quyết định thành lập cơ quan, đơn vị; quyết định giải thể, sát nhập cơ quan, đơn vị ….",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 60. Hồ sơ hiện hành cơ bản, phổ biến ở mọi cơ quan, tổ chức, đó là:",
       options: ["A. Hồ sơ công việc", "B. Hồ sơ nguyên tắc", "C. Hồ sơ nhân sự", "D. Cả A, B, C"],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 61. Chọn câu sai. Hồ sơ hiện hành cơ bản, phổ biến ở mọi cơ quan, tổ chức, đó là:",
       options: ["A. Hồ sơ hội nghị", "B. Hồ sơ công việc", "C. Hồ sơ nguyên tắc", "D. Hồ sơ nhân sự"],
-      answer: "",
+      answer: "A",
     },
     {
       question: "Câu 62. Công tác văn thư là hoạt động bao gồm các công việc:",
@@ -583,7 +583,7 @@ const quizData = {
         "C. Lập hồ sơ và giao nộp hồ sơ, tài liệu vào Lưu trữ cơ quan; quản lý và sử dụng con dấu của cơ quan, tổ chức.",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 63. Công tác văn thư không có công việc này:",
@@ -593,7 +593,7 @@ const quizData = {
         "C. Quản lý văn bản và tài liệu khác hình thành trong quá trình hoạt động của cơ quan, tổ chức;",
         "D. Lập hồ sơ và giao nộp hồ sơ, tài liệu vào Lưu trữ cơ quan; quản lý và sử dụng con dấu của cơ quan, tổ chức.",
       ],
-      answer: "",
+      answer: "A",
     },
     {
       question: "Câu 64. Công tác lưu trữ là hoạt động bao gồm các công việc:",
@@ -603,7 +603,7 @@ const quizData = {
         "C. Bảo quản, thống kê và sử dụng tài liệu lưu trữ hình thành trong quá trình hoạt động của các cơ quan, tổ chức.",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 66. Công tác lưu trữ không có công việc này:",
@@ -613,7 +613,7 @@ const quizData = {
         "C. Xác định giá trị tài liệu",
         "D. Bảo quản, thống kê và sử dụng tài liệu lưu trữ hình thành trong quá trình hoạt động của các cơ quan, tổ chức.",
       ],
-      answer: "",
+      answer: "A",
     },
     {
       question: "Câu 67. Chọn câu đúng. Tài liệu lưu trữ bao gồm:",
@@ -623,7 +623,7 @@ const quizData = {
         "C. Bản chính; trong trường hợp không còn bản gốc, bản chính thì được thay thế bằng bản sao hợp pháp.",
         "D. Bản gốc; trong trường hợp không còn bản gốc, bản chính thì được thay thế bằng bản sao hợp pháp.",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question:
@@ -634,7 +634,7 @@ const quizData = {
         "C. Hồ sơ thiết kế, thi công, hoàn công công trình (ngành xây dựng cơ bản)",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 69. Tài liệu này không phải là tài liệu chuyên môn, nghiệp vụ:",
@@ -644,7 +644,7 @@ const quizData = {
         "C. Hồ sơ cán bộ",
         "D. Hồ sơ bệnh án (ngành y tế)",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 70. Tài liệu này không phải là tài liệu chuyên môn, nghiệp vụ:",
@@ -654,7 +654,7 @@ const quizData = {
         "C. Hồ sơ nghiệp vụ quốc phòng (ngành quốc phòng)",
         "D. Hồ sơ bổ nhiệm công chức",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 71. Đây không thuộc yêu cầu của việc lập hồ sơ và quản lý hồ sơ:",
@@ -664,7 +664,7 @@ const quizData = {
         "C. Đảm bảo giá trị, tính toàn vẹn của tài liệu",
         "D. Bảo đảm tính kịp thời",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 72. Trách nhiệm của đơn vị và cá nhân trong cơ quan, tổ chức trong quản lý hồ sơ:",
@@ -674,7 +674,7 @@ const quizData = {
         "C. Đơn vị và cá nhân trong cơ quan, tổ chức có trách nhiệm nộp lưu những hồ sơ, tài liệu được xác định thời hạn bảo quản từ 05 năm trở lên vào Lưu trữ cơ quan.",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 73. Tác dụng của Danh mục hồ sơ:",
@@ -684,7 +684,7 @@ const quizData = {
         "C. Là căn cứ để kiểm tra, đôn đốc việc lập hồ sơ tại các đơn vị, cá nhân; góp phần nâng cao ý thức và trách nhiệm của mỗi cá nhân trong cơ quan, tổ chức đối với việc lập hồ sơ và chuẩn bị nộp lưu hồ sơ, tài liệu vào Lưu trữ cơ quan.",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 73. Chọn câu sai. Khi xây dựng Danh mục hồ sơ, cần căn cứ vào các văn bản, tài liệu sau:",
@@ -694,7 +694,7 @@ const quizData = {
         "C. Quy chế công tác văn thư, lưu trữ của cơ quan, tổ chức;",
         "D. Các báo cáo hàng tháng",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 74. Khi xây dựng Danh mục hồ sơ, cần căn cứ vào các văn bản, tài liệu sau:",
@@ -704,7 +704,7 @@ const quizData = {
         "C. Bảng thời hạn bảo quản tài liệu và Mục lục hồ sơ của cơ quan, tổ chức (nếu có).",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 75. Chọn câu sai. Hồ sơ hội nghị tổng kết công tác hằng năm có các tài liệu sau:",
@@ -714,7 +714,7 @@ const quizData = {
         "C. Lời khai mạc;",
         "D. Báo cáo tổng kết hội nghị",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 76. Chọn câu sai. Hồ sơ hội nghị tổng kết công tác hằng năm có các tài liệu sau:",
@@ -734,7 +734,7 @@ const quizData = {
         "C. Ảnh, tài liệu ghi âm, ghi hình (nếu có).",
         "D. Thư mời",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 78. Hồ sơ về việc nâng lương có các tài liệu sau:",
@@ -744,7 +744,7 @@ const quizData = {
         "C. Biên bản họp hội đồng nâng lương;",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -755,18 +755,18 @@ const quizData = {
         "C. Hồ sơ phối hợp giải quyết công việc (trường hợp trùng với hồ sơ của đơn vị chủ trì).",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
         "Câu 80. Chọn phương án sai. Tùy thuộc việc lựa chọn thứ tự tiêu chí đặc trong mà có thể sắp xếp hồ sơ theo các phương án sau:",
       options: [
         "A. Phương án “thời gian - cơ cấu tổ chức”",
-        "B. Phương án “thời gian – không gian”",
+        "B. Phương án “thời gian - không gian”",
         "C. Phương án “cơ cấu tổ chức - thời gian”",
         "D. Phương án “mặt hoạt động - thời gian”",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question:
@@ -777,7 +777,7 @@ const quizData = {
         "C. Phương án “cơ cấu tổ chức - thời gian”",
         "D. Phương án “mặt hoạt động - không gian”",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -788,7 +788,7 @@ const quizData = {
         "C. Loại tài liệu, vật mang bí mật nhà nước thuộc độ Mật",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 83. Các hành vi bị nghiêm cấm trong bảo vệ hồ sơ, tài liệu thuộc danh mục bí mật nhà nước:",
@@ -798,7 +798,7 @@ const quizData = {
         "C. Mang hồ sơ, tài liệu bí mật nhà nước ra khỏi nơi lưu giữ trái pháp luật.",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -809,7 +809,7 @@ const quizData = {
         "C. Đăng tải, phát tán tài liệu bí mật nhà nước trên phương tiện thông tin đại chúng, mạng Internet, mạng máy tính và mạng viễn thông.",
         "D. Chuyển giao tài liệu trái phép",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -820,7 +820,7 @@ const quizData = {
         "C. Đăng tải, phát tán tài liệu bí mật nhà nước trên phương tiện thông tin đại chúng, mạng Internet, mạng máy tính và mạng viễn thông.",
         "D. A, C sai",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 86. Đây không phải là một trong những đặc điểm của giao tiếp hành chính:",
@@ -830,7 +830,7 @@ const quizData = {
         "C. Tính chuẩn mực của giao tiếp hành chính",
         "D. Tính đa dạng, phức tạp của hoạt động giao tiếp hành chính",
       ],
-      answer: "",
+      answer: "A",
     },
     {
       question:
@@ -841,7 +841,7 @@ const quizData = {
         "C. Nội dung công việc đa dạng với nhiều công việc khác nhau,…",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question:
@@ -852,7 +852,7 @@ const quizData = {
         "C. Giao tiếp giúp duy trì, phát triển tổ chức",
         "D. Cả A, B, C",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 89. Chọn câu sai. Yêu cầu và nguyên tắc giao tiếp hành chính:",
@@ -862,7 +862,7 @@ const quizData = {
         "C. Phù hợp với hoàn cảnh và các quy luật khách quan",
         "D. Trung thực",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 90. Chọn câu sai. Yêu cầu và nguyên tắc giao tiếp hành chính:",
@@ -872,7 +872,7 @@ const quizData = {
         "C. Tôn trọng quy luật tâm sinh lý",
         "D. Lựa chọn giải pháp tối ưu trong giao tiếp",
       ],
-      answer: "",
+      answer: "B",
     },
     {
       question: "Câu 91: Lợi ích của làm việc nhóm đối với công chức là gì:",
@@ -882,7 +882,7 @@ const quizData = {
         "C. Kéo dài thời gian làm việc.",
         "D. Tất cả đều sai.",
       ],
-      answer: "",
+      answer: "A",
     },
     {
       question: "Câu 92: Làm việc nhóm cần có bao nhiêu người?",
@@ -892,7 +892,7 @@ const quizData = {
         "C. Từ 02 người trở lên.",
         "D. Không giới hạn số lượng.",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question:
@@ -903,7 +903,7 @@ const quizData = {
         "C. Tôn trọng và khích lệ nhau.",
         "D. Cộng tác chứ không cạnh tranh.",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 94: Hãy chọn câu đúng nhất, Nhóm trưởng có vai trò như thế nào trong làm việc nhóm?",
@@ -913,7 +913,7 @@ const quizData = {
         "C. Có vai trò gắn kết các thành viên cũng như các mối quan hệ giữa các thành viên trong nhóm.",
         "D. Là những người tiêu cực như người gây hấn, người phụ thuộc, người áp đặt, người bắt lỗi, người gây rối, người chống đối.",
       ],
-      answer: "",
+      answer: "A",
     },
     {
       question: "Câu 95: Yếu tố nào ảnh hưởng đến làm việc nhóm trong môi trường công vụ?",
@@ -923,7 +923,7 @@ const quizData = {
         "C. Quy chế làm việc nhóm không chặt chẽ.",
         "D. Tất cả những yếu tố trên.",
       ],
-      answer: "",
+      answer: "D",
     },
     {
       question: "Câu 96: Kiểm soát làm việc nhóm là nhiệm vụ của ai?",
@@ -933,7 +933,7 @@ const quizData = {
         "C. Là nhiệm vụ của trưởng nhóm tuy nhiên cũng cần có sự tham gia của các thành viên.",
         "D. Thành viên giữ vai trò kiểm soát.",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 97: Nội dung kiểm soát trong làm việc nhóm bao gồm?",
@@ -943,7 +943,7 @@ const quizData = {
         "C. Đối với nội dung công việc và đối với thái độ làm việc.",
         "D. Đối với nội dung công việc và đối với nghiệp vụ chuyên môn.",
       ],
-      answer: "",
+      answer: "A",
     },
     {
       question: "Câu 98: Trong làm việc nhóm, việc kiểm soát đối với cá nhân là thực hiện các nội dung gì?",
@@ -953,7 +953,7 @@ const quizData = {
         "C. Kiểm soát chuyên môn nghiệp vụ; hành vi, thái độ làm việc; cách thức và phương thức làm việc.",
         "D. Kiểm soát thái độ, triển vọng; kết quả làm việc và điều kiện thực hiện công việc.",
       ],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 99: Cách thức để giải quyết những xung đột tiêu cực?",
@@ -963,7 +963,7 @@ const quizData = {
         "C. A và B đều sai.",
         "D. A và B đều đúng.",
       ],
-      answer: "",
+      answer: "A",
     },
     {
       question: "Câu 100: Các phương pháp giải quyết xung đột trong làm việc nhóm?",
@@ -973,7 +973,7 @@ const quizData = {
         "C. Phương pháp tránh sự xung đột; phương pháp thương lượng; phương pháp nhường nhịn; phương pháp “cộng hoà”, phương pháp né tránh.",
         "D. Phương pháp nhường nhịn; phương pháp tránh sự xung đột; phương pháp trọng tài xét xử.",
       ],
-      answer: "",
+      answer: "B",
     },
   ],
 };
