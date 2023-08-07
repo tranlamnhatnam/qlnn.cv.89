@@ -629,7 +629,7 @@ const quizData = {
     {
       question: "Câu 76. Chọn câu sai. Hồ sơ hội nghị tổng kết công tác hằng năm có các tài liệu sau:",
       options: ["A. Dự thảo báo cáo tổng kết;", "B. Các báo cáo tham luận (nếu có);", "C. Công văn triệu tập;", "D. Bài phát biểu của lãnh đạo cấp trên (nếu có);"],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 77. Chọn câu sai. Hồ sơ hội nghị tổng kết công tác hằng năm có các tài liệu sau:",
