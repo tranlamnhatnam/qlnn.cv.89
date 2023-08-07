@@ -29,7 +29,7 @@ function populateTable(data) {
 
     const breadcrumb = document.createElement("span");
     breadcrumb.classList.add("text-sm", "text-gray-400");
-    breadcrumb.innerHTML = `&mdash; ${getGroupLabel(item.group)}`;
+    breadcrumb.innerHTML = `— ${getGroupLabel(item.group)}`;
 
     contentCell.textContent = item.content;
     contentCell.classList.add("p-4");
@@ -63,7 +63,7 @@ function populateTable(data) {
         subContentCell.classList.add("p-4");
         subDurationCell.classList.add("w-40", "p-4", "text-center");
 
-        subContentCell.textContent = `■ ${subItem.content}`;
+        subContentCell.textContent = `— ${subItem.content}`;
         subDurationCell.textContent = subItem.duration;
 
         subRow.appendChild(subDividerCell);
