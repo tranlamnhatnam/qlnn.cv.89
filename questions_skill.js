@@ -221,12 +221,12 @@ const quizData = {
     },
     {
       question:
-        "Câu 23b. Chọn nội dung sai. Khi xuất hiện tình huống trong hành chính nhà nước, việc phân tích, giải quyết tình huống có giá trị và ý nghĩa quan trọng, được thể hiện ở một số nội dung như sau:",
+        "Câu 23b. Chọn câu sai. Việc phân tích, giải quyết tình huống trong hành chính nhà nước cần bảo đảm các nguyên tắc sau:",
       options: [
-        "A. Góp phần vào việc tổng kết, đánh giá thực tiễn quản lý nhà nước làm cơ sở cho việc hoạch định chính sách, hoàn thiện thể chế hành chính nhà nước.",
-        "B. Tăng cường và phát triển được kỹ năng tham mưu của đội ngũ công chức trong thực thi nhiệm vụ thông qua việc phân tích, giải quyết tình huống trong hành chính nhà nước.",
-        "C. Thông qua việc phân tích, giải quyết tình huống giúp cho các cơ quan, tổ chức, cá nhân có thẩm quyền xử lý vụ việc được nhanh chóng, kịp thời, chính xác.",
-        "D. B sai",
+        "A. Nguyên tắc phù hợp với truyền thống dân tộc.",
+        "B. Nguyên tắc quản lí xã hội bằng Hiến pháp và pháp luật.",
+        "C. Nguyên tắc khách quan, trung thực.",
+        "D. Nguyên tắc chính xác, nhanh chóng, kịp thời.",
       ],
       answer: "",
     },
