@@ -677,7 +677,7 @@ const quizData = {
     },
     {
       question: "Câu 76. Chọn câu sai. Hồ sơ hội nghị tổng kết công tác hằng năm có các tài liệu sau:",
-      options: ["A. Dự thảo báo cáo tổng kết", "B. Các báo cáo tham luận (nếu có)", "C. Công văn triệu tập", "D. Bài phát biểu của lãnh đạo cấp trên (nếu có);"],
+      options: ["A. Dự thảo báo cáo tổng kết", "B. Các báo cáo tham luận (nếu có)", "C. Công văn triệu tập", "D. Bài phát biểu của lãnh đạo cấp trên (nếu có)"],
       answer: "C",
     },
     {
@@ -750,7 +750,7 @@ const quizData = {
     {
       question: "Câu 84. Chọn câu sai. Các hành vi bị nghiêm cấm trong bảo vệ hồ sơ, tài liệu thuộc danh mục bí mật nhà nước:",
       options: [
-        "A. Lợi dụng, lạm dụng việc bảo vệ hồ sơ, tài liệu bí mật nhà nước, sử dụng bí mật nhà nước để thực hiện, che giấu hành vi vi phạm pháp luật,.",
+        "A. Lợi dụng, lạm dụng việc bảo vệ hồ sơ, tài liệu bí mật nhà nước, sử dụng bí mật nhà nước để thực hiện, che giấu hành vi vi phạm pháp luật",
         "B. Soạn thảo, lưu giữ tài liệu có chứa nội dung bí mật nhà nước trên máy tính hoặc thiết bị khác đã kết nối hoặc đang kết nối với mạng Internet,…",
         "C. Đăng tải, phát tán tài liệu bí mật nhà nước trên phương tiện thông tin đại chúng, mạng Internet, mạng máy tính và mạng viễn thông",
         "D. Chuyển giao tài liệu trái phép",
