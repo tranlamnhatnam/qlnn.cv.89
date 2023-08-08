@@ -189,7 +189,7 @@ const quizData = {
     },
     {
       question:
-        "Câu 22. Chọn câu sai. Khi xuất hiện tình huống trong hành chính nhà nước, việc phân tích, giải quyết tình huống có giá trị và ý nghĩa quan trọng, được thể hiện ở một số nội dung như sau:",
+        "Câu 22a. Chọn câu sai. Khi xuất hiện tình huống trong hành chính nhà nước, việc phân tích, giải quyết tình huống có giá trị và ý nghĩa quan trọng, được thể hiện ở một số nội dung như sau:",
       options: [
         "A. Giúp cho các cơ quan, tổ chức thực hiện đúng chức năng, nhiệm vụ, quyền hạn của mình.",
         "B. Giúp cơ quan, tổ chức kịp thời can thiệp.",
@@ -200,14 +200,35 @@ const quizData = {
     },
     {
       question:
-        "Câu 23. Chọn nội dung sai. Khi xuất hiện tình huống trong hành chính nhà nước, việc phân tích, giải quyết tình huống có giá trị và ý nghĩa quan trọng, được thể hiện ở một số nội dung như sau:",
+        "Câu 22b. Chọn câu sai. Khi xuất hiện tình huống trong hành chính nhà nước, việc phân tích, giải quyết tình huống có giá trị và ý nghĩa quan trọng, được thể hiện ở một số nội dung như sau:",
+      options: [
+        "A. Góp phần vào việc tổng kết, đánh giá thực tiễn quản lý nhà nước làm cơ sở cho việc hoạch định chính sách, hoàn thiện thể chế hành chính nhà nước.",
+        "B. Tăng cường và phát triển được kỹ năng tham mưu của đội ngũ công chức trong thực thi nhiệm vụ thông qua việc phân tích, giải quyết tình huống trong hành chính nhà nước. ",
+        "C. Thông qua việc phân tích, giải quyết tình huống giúp cho các cơ quan, tổ chức, cá nhân có thẩm quyền xử lý vụ việc được nhanh chóng, kịp thời, chính xác.",
+        "D. B sai",
+      ],
+      answer: "",
+    },
+    {
+      question: "Câu 23a. Chọn câu đúng nhất. Việc phân tích, giải quyết tình huống trong hành chính nhà nước cần bảo đảm các nguyên tắc sau::",
+      options: [
+        "A. Nguyên tắc quản lí xã hội bằng Hiến pháp và pháp luật ",
+        "B. Nguyên tắc khách quan, trung thực ",
+        "C. Nguyên tắc chính xác, nhanh chóng, kịp thời",
+        "D. Cả A,B,C",
+      ],
+      answer: "D",
+    },
+    {
+      question:
+        "Câu 23b. Chọn nội dung sai. Khi xuất hiện tình huống trong hành chính nhà nước, việc phân tích, giải quyết tình huống có giá trị và ý nghĩa quan trọng, được thể hiện ở một số nội dung như sau:",
       options: [
         "A. Góp phần vào việc tổng kết, đánh giá thực tiễn quản lý nhà nước làm cơ sở cho việc hoạch định chính sách, hoàn thiện thể chế hành chính nhà nước.",
         "B. Tăng cường và phát triển được kỹ năng tham mưu của đội ngũ công chức trong thực thi nhiệm vụ thông qua việc phân tích, giải quyết tình huống trong hành chính nhà nước.",
         "C. Thông qua việc phân tích, giải quyết tình huống giúp cho các cơ quan, tổ chức, cá nhân có thẩm quyền xử lý vụ việc được nhanh chóng, kịp thời, chính xác.",
         "D. B sai",
       ],
-      answer: "D",
+      answer: "",
     },
     {
       question: "Câu 24. Chọn câu sai. Việc phân tích, giải quyết tình huống trong hành chính nhà nước cần bảo đảm các nguyên tắc sau:",
@@ -306,9 +327,14 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 34. Chọn câu sai. Sau khi tổ chức giải quyết tình huống, cần tiến hành đánh giá tổng kết kết quả giải quyết tình huống. Cụ thể, tiêu chí cần đánh giá đó là:",
+      question: "Câu 34a. Chọn câu sai. Sau khi tổ chức giải quyết tình huống, cần tiến hành đánh giá tổng kết kết quả giải quyết tình huống. Cụ thể, tiêu chí cần đánh giá đó là:",
       options: ["A. Các mục tiêu đã đạt được.", "B. Phương thức lãnh đạo, chỉ đạo thực hiện.", "C. Dễ xử lý.", "D. Kỹ năng giải quyết tình huống."],
       answer: "C",
+    },
+    {
+      question: "Câu 34b. Chọn câu sai. Sau khi tổ chức giải quyết tình huống, cần tiến hành đánh giá tổng kết kết quả giải quyết tình huống. Cụ thể, tiêu chí cần đánh giá đó là:",
+      options: ["A. Trong thực tiễn đã giải quyết chưa.", "B. Hiệu quả giải quyết tình huống.", "C. Đánh giá tác động từ việc giải quyết tình huống.", "D. B,C sai."],
+      answer: "",
     },
     {
       question: "Câu 35. Đặc điểm của văn bản quản lý nhà nước được xác định dựa trên các tiêu chí cơ bản:",
@@ -351,7 +377,7 @@ const quizData = {
       answer: "D",
     },
     {
-      question: "Câu 40. Văn bản này không thuộc văn bản quy phạm pháp luật bao gồm:",
+      question: "Câu 40a. Văn bản này không thuộc văn bản quy phạm pháp luật bao gồm:",
       options: [
         "A. Hiến pháp;",
         "B. Bộ luật, luật (sau đây gọi chung là luật), nghị quyết của Quốc hội;",
@@ -359,6 +385,16 @@ const quizData = {
         "D. Chỉ thị của Thủ tướng Chính phủ",
       ],
       answer: "D",
+    },
+    {
+      question: "Câu 40b. Văn bản này không thuộc văn bản quy phạm pháp luật bao gồm:",
+      options: [
+        "A. Chỉ thị của Chủ tịch Ủy ban nhân dân tỉnh.",
+        "B. Lệnh, quyết định của Chủ tịch nước.",
+        "C. Nghị định của Chính phủ; nghị quyết liên tịch giữa Chính phủ với Đoàn Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam.",
+        "D. Quyết định của Thủ tướng Chính phủ.",
+      ],
+      answer: "",
     },
     {
       question: "Câu 41. Những văn bản này thuộc hệ thống văn bản quy phạm pháp luật:",
@@ -386,9 +422,14 @@ const quizData = {
       answer: "B",
     },
     {
-      question: "Câu 44. Chọn câu đúng nhất. Điều 7 Nghị định số 30/2020/NĐ-CP, quy định có các loại văn bản hành chính:",
+      question: "Câu 44a. Chọn câu đúng nhất. Điều 7 Nghị định số 30/2020/NĐ-CP, quy định có các loại văn bản hành chính:",
       options: ["A. Nghị quyết (cá biệt),", "B. Quyết định (cá biệt),", "C. Chỉ thị", "D. Cả A, B, C"],
       answer: "D",
+    },
+    {
+      question: "Câu 44b. Chọn câu đúng nhất. Điều 7 Nghị định số 30/2020/NĐ-CP, quy định có các loại văn bản hành chính:",
+      options: ["A. Quy chế, quy định", "B. Thông cáo, thông báo", "C. Thông cáo", "D. Hướng dẫn"],
+      answer: "",
     },
     {
       question: "Câu 45. Chọn câu sai. Điều 7 Nghị định số 30/2020/NĐ-CP, quy định có các loại văn bản hành chính:",
@@ -396,9 +437,14 @@ const quizData = {
       answer: "A",
     },
     {
-      question: "Câu 46. Chọn câu sai. Điều 7 Nghị định số 30/2020/NĐ-CP, quy định có các loại văn bản hành chính:",
+      question: "Câu 46a. Chọn câu sai. Điều 7 Nghị định số 30/2020/NĐ-CP, quy định có các loại văn bản hành chính:",
       options: ["A. Biên bản", "B. Đơn xin nghỉ phép", "C. Tờ trình", "D. Hợp đồng"],
       answer: "B",
+    },
+    {
+      question: "Câu 46b. Chọn câu sai. Điều 7 Nghị định số 30/2020/NĐ-CP, quy định có các loại văn bản hành chính:",
+      options: ["A. Công văn, công điện", "B. Bản ghi nhớ, bản thỏa thuận", "C. Giấy uỷ quyền, giấy mời", "D. Cả A,B,C"],
+      answer: "",
     },
     {
       question: "Câu 47. Chọn câu đúng nhất. Điều 7 Nghị định số 30/2020/NĐ-CP, quy định có các loại văn bản hành chính gồm:",
@@ -629,7 +675,7 @@ const quizData = {
     {
       question: "Câu 76. Chọn câu sai. Hồ sơ hội nghị tổng kết công tác hằng năm có các tài liệu sau:",
       options: ["A. Dự thảo báo cáo tổng kết;", "B. Các báo cáo tham luận (nếu có);", "C. Công văn triệu tập;", "D. Bài phát biểu của lãnh đạo cấp trên (nếu có);"],
-      answer: "",
+      answer: "C",
     },
     {
       question: "Câu 77. Chọn câu sai. Hồ sơ hội nghị tổng kết công tác hằng năm có các tài liệu sau:",
